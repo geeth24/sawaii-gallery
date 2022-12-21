@@ -41,7 +41,7 @@ function Gallery() {
                 <div
                   key={index+1}
                   data-src={`/images/SAWAII${index+1}.jpg`}
-                  data-sub-html={`<h4>Image ${index+1}</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, quod.</p>`}
+                  // data-sub-html={`<h4>Image ${index+1}</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, quod.</p>`}
                   data-responsive={`/images/SAWAII${index+1}.jpg 375, /images/SAWAII${index+1}.jpg 480, /images/SAWAII${index+1}.jpg 800`}
                   style={{cursor: "pointer"}}
                  
